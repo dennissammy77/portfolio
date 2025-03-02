@@ -1,0 +1,35 @@
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.bio{
+    justify-content: center;
+}
+#home .title{
+    font-size: xxx-large;
+    margin-bottom: 20px;
+}
+#home p{
+    font-size: x-large;
+    font-weight: 200;
+}
+.bg-text {
+    background-color: var(--primary);
+}
+.squiggly-text {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: var(--primary);
+}
+
+@media only screen and (max-width: 900px){
+    #home .title {
+        font-size: xx-large;
+    }
+    #home p{
+        font-size: large;
+    }
+}

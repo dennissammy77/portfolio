@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home | Dennis Sammy</title>
+        <!-----imports-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!-----styles-->
+        <link href="./public/style.css" rel="stylesheet" />
+        <link href="./public/about.css" rel="stylesheet" />
+        <link href="./public/skills.css" rel="stylesheet" />
+        <link href="./public/experience.css" rel="stylesheet" />
+        <link href="./public/contact.css" rel="stylesheet" />
+        <!-----scripts-->
+    </head>
+    <body class="dark-mode">
+        <!------------------------Navigation Header ------------------->
+        <header>
+            <!-- Logo -->
+            <a href="#home">
+                <h1>Sammy</h1>
+            </a>
+            <!-- Links -->
+            <nav class="dark-mode nav-container" id="nav-container">
+                <a href="#home" class="active">Home</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Let's Talk</a>
+                <img src = "./assets/close-svgrepo-com.svg" width="42" height="42" class="btn-icon" id="close-nav-bar" alt="svg"/>
+            </nav>
+            <!-- socials -->
+            <div class="controller">
+                <button id="toggle-theme" class="btn btn-primary">toggle theme</button>
+                <img src = "./assets/menu-svgrepo-com.svg" width="42" height="42" class="btn-icon nav-toggle" id="open-nav-bar" alt="svg"/>
+            </div>
+            
+        </header>
+        <!------------------------About ------------------->
+        <div id="home" class="section">
+            <div class="col bio">
+                <h1 class="title">Hello, my name is <br> <span class="bg-text">Dennis Sammy</span>.</h1>
+                <p>I am a <span class="squiggly-text">Fullstack Engineer</span> with <span class="squiggly-text">4 years</span> of experience, and <br>I specialize in <span class="squiggly-text">Frontend</span> and <span class="squiggly-text">Backend</span>.</p>
+            </div>
+        </div>
+        <!------------------------Skills/ Tech Stack ------------------->
+        <div id="skills" class="section">
+            <h1 class="bg-text title">My tech stack</h1>
+            <div class="container">
+                <div class="div1 card">
+                    <img src = "./assets/JavaScript-logo.png" alt="skill img"/>
+                </div>
+                <div class="div2 card">
+                    <img src = "./assets/nodejs.png" alt="skill img"/>
+                </div>
+                <div class="div3 card">
+                    <img src = "./assets/nextjs.png" alt="skill img"/>
+                </div>
+                <div class="div4 card">
+                    <img src = "./assets/expressjs.png" alt="skill img"/>
+                </div>
+                <div class="div5 card">
+                    <img src = "./assets/react.png" alt="skill img"/>
+                </div>
+                <div class="div6 card">
+                    <img src = "./assets/mongodb.png" alt="skill img"/>
+                </div>
+                <div class="div7 card">
+                    <img src = "./assets/golang.png" alt="skill img"/>
+                </div>
+                <div class="div8 card">
+                    <img src = "./assets/images.jpeg" alt="skill img"/>
+                </div>
+            </div>
+        </div>
+        <!------------------------Experience/projects ------------------->
+        <div id="experience" class="section">
+            <div class="container">
+                <div class="experience-card1 experience-card">
+                    <iframe src="https://prokemia.com/" height="300px" width="100%"></iframe>
+                    <div class="experience-content">
+                        <h1>Full stack developer - <span class="squiggly-text "><a target=”_blank” href="https://prokemia.com/">Prokemia</a></span></h1>
+                        <small>Designed, developed, and maintained the system.</small>
+                        <div class="my-sm">
+                            <span>FreeLance</span>
+                            <span>|</span>
+                            <span class="project-tag">eccomerce</span>
+                        </div>
+                        <div>
+                            <span class="tech-stack">nextJs</span>
+                            <span class="tech-stack">expressjs</span>
+                            <span class="tech-stack">MongoDb</span>
+                            <span class="tech-stack">React</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card2 experience-card">
+                    <iframe src="https://admin.arcadialaundry.co.ke/" height="300px" width="100%"></iframe>
+                    <div class="experience-content">
+                        <h1>Full stack developer - <span class="squiggly-text "><a target=”_blank” href="https://admin.arcadialaundry.co.ke/">Arcadia Laundry</a></span></h1>
+                        <small>Designed, developed, and maintained the admin dashbaord and server system.</small>
+                        <div class="my-sm">
+                            <span>FreeLance</span>
+                            <span>|</span>
+                            <span class="project-tag">crm</span>
+                        </div>
+                        <div>
+                            <span class="tech-stack">nextJs</span>
+                            <span class="tech-stack">expressjs</span>
+                            <span class="tech-stack">MongoDb</span>
+                            <span class="tech-stack">React</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="experience-card3 experience-card">
+                    <iframe src="https://billonboard.com/" height="300px" width="100%"></iframe>
+                    <div class="experience-content">
+                        <h1>Full stack developer - <span class="squiggly-text "><a target=”_blank” href="https://billonboard.com/">BillonBoard</a></span></h1>
+                        <small>Designed, developed, and maintained the system.</small>
+                        <div class="my-sm">
+                            <span>FreeLance</span>
+                            <span>|</span>
+                            <span class="project-tag">eccomerce</span>
+                        </div>
+                        <div>
+                            <span class="tech-stack">nextJs</span>
+                            <span class="tech-stack">expressjs</span>
+                            <span class="tech-stack">MongoDb</span>
+                            <span class="tech-stack">React</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card4 experience-card">
+                    <iframe src="https://borgcorp.eu/" height="300px" width="100%"></iframe>
+                    <div class="experience-content">
+                        <h1>Frontend developer - <span class="squiggly-text "><a target=”_blank” href="https://borgcorp.eu/">Vortex</a></span></h1>
+                        <small>Developed, and maintained the system.</small>
+                        <div class="my-sm">
+                            <span>Internship</span>
+                            <span>|</span>
+                            <span class="project-tag">erp</span>
+                            <span class="project-tag">crm</span>
+
+                        </div>
+                        <div>
+                            <span class="tech-stack">Html</span>
+                            <span class="tech-stack">Css</span>
+                            <span class="tech-stack">MongoDb</span>
+                            <span class="tech-stack">Js</span>
+                            <span class="tech-stack">expressJs<span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------------Contact ------------------->
+        <div id="contact" class="section">
+            <div class="contact-details">
+                <h1 class="bg-text">Let us talk</h1>
+                <p>Are you looking to collaborate in a project or just saying hi?</p>
+                <div class="my-lg">
+                    <ul>
+                        <li>
+                            <a href="tel:+254759233322" class="contact-details-link my-sm" target=”_blank”>
+                                <img src = "./assets/smartphone-2-svgrepo-com.svg" width="42" height="42" class="btn-icon" alt="svg"/>
+                                <p>+254759233322</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:dennissammy77@gmail.com" class="contact-details-link my-sm" target=”_blank”>
+                                <img src = "./assets/email-9-svgrepo-com.svg" width="42" height="42" class="btn-icon" alt="svg"/>
+                                <p>dennissammy77@gmail.com</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/dennissammy77" class="contact-details-link my-sm" target=”_blank”>
+                                <img src = "./assets/github-142-svgrepo-com.svg" width="42" height="42" class="btn-icon" alt="svg"/>
+                                <p>dennissammy77</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contact-form col">
+                <form id="CONTACT_FORM">
+                    <div class="col my-sm w-full">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="John Doe" required class="form-input" >
+                    </div>
+                    <div class="col my-sm w-full">
+                        <label for="Email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Johndoe@gmail.com" required class="form-input" >
+                    </div>
+                    <div class="col my-sm w-full">
+                        <label for="Phone">Phone</label>
+                        <input type="text" name="phone" id="phone" placeholder="+254759233322" required class="form-input" >
+                    </div>
+                    <div class="col my-sm w-full">
+                        <label for="message">Feel free..</label>
+                        <textarea name="message" id="message" placeholder="chip away, i would love to hear from you" required class="form-input" style="height: 100px;"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-md w-full my-sm row" style="align-items: center;justify-content: center;">
+                        <p>Send me a message</p>
+                        <img src = "./assets/send-alt-1-svgrepo-com.svg" width="16" height="16" class="" alt="svg"/>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </body>
+    <script src="./src/style.script.js"></script>
+    <script src="./src/nav.script.js"></script>
+    <script src="./src/contact.script.js"></script>
+</html>
