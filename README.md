@@ -45,6 +45,4 @@ Check out my website here: [mywebsite.com](https://dennissammy77.github.io/portf
 Pull requests are welcome! Feel free to open an issue or suggest improvements.
 
 ## Contact 📩  
-- Email: your.email@example.com  
-- Twitter: [@yourhandle](https://twitter.com/yourhandle)  
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)  
+- Email: dennissammy77@gmail.com
